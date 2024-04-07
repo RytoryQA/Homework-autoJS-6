@@ -1,0 +1,22 @@
+{
+  "name": "homework-autojs-6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "laptopChromeHeaded": "cypress run --config-file cypress.config.js --browser chrome --headed",
+    "laptopChrome": "cypress run --config-file cypress.config.js --browser chrome ",
+    "laptopEdgeHeaded": "cypress run --config-file cypress.config.js --browser edge --headed",
+    "laptopEdge": "cypress run --config-file cypress.config.js --browser edge",
+    "phoneChromeHeaded": "cypress run --config-file cypress.configPhone.js --browser chrome --headed",
+    "phoneChrome": "cypress run --config-file cypress.configPhone.js --browser chrome",
+    "phoneEdgeHeaded": "cypress run --config-file cypress.configPhone.js --browser edge --headed",
+    "phoneEdge": "cypress run --config-file cypress.configPhone.js --browser edge"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^13.7.2"
+  }
+}
